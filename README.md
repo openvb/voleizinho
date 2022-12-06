@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="volleyball.jpg" width="300">
+    <img src="volleyball.png">
 </p>
 
 # Volleyball Icon
@@ -21,6 +21,3 @@ Pixel art icon written in Python
 ## Run skecth
 
 $ `python volleyball.py`
-
-## TODO
-- Generate svg icon

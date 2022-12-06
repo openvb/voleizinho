@@ -2,14 +2,15 @@
 Pixel Art Volleyball Icon
 '''
 
-__version__ = "1.0"
+__version__ = "1.1"
 __author__  = "Claromes"
 
 import py5
 
 def setup():
-    py5.size(650, 625)
-    py5.background(250)
+    py5.size(350, 350)
+    py5.background(255)
+    py5.begin_record(py5.SVG, "volleyball.svg")
 
 def draw():
     py5.push_matrix()
@@ -24,7 +25,7 @@ def draw():
     if py5.is_mouse_pressed:
         grid(0)
 
-    py5.save_frame('volleyball.jpg')
+    py5.save_frame('volleyball.png')
 
 def volley():
     row([[10, 1, 6]])
